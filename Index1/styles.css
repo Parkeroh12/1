@@ -1,0 +1,52 @@
+body {color: rgb(65, 225, 225);
+/*background-color: green;*/
+background-image:linear-gradient(rgba(0, 0, 255),rgba(255, 255, 0, .5)), url(Destiny_XBO.jpg)
+;
+
+}
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+img {display: block;
+margin-left: calc(1%);
+margin-right: auto;
+margin-top: calc(-5%);
+width: 10%;
+border: 5px groove black ;
+border-radius: 80px ;}
+
+.btn-group button {
+    background-color: #344aaa; 
+    border: 1px solid rgb(66, 0, 128); 
+    border-radius: px;
+    color: white; 
+    padding: 10px 100px; 
+    cursor: pointer; 
+    float: left; 
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; 
+  }
+  
+  
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  .btn-group button:hover {
+    background-color: #171964;
+  }
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    -ms-transform: translateY(-2%);
+    transform: translateY(-20%);
+    transform: translateX(40%);
+    right: 45% ;
+  }
